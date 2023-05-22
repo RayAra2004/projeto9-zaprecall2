@@ -9,7 +9,7 @@ export default function Concluido(props){
                 {msgFinal}
             </SCMsgFinal>
             <p>{respondidas.length}/{cards.length} CONCLUÍDOS</p>     
-            <SCResultados>
+            <SCResultados data-test="finish-text">
                 {resultados}
             </SCResultados>
         </SCConcluido>
